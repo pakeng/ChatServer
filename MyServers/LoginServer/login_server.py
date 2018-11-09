@@ -1,5 +1,7 @@
 from flask import Flask, request
 from flask import render_template
+
+from MyServers.LoginServer.DataBase import Tables
 from MyServers.LoginServer.LoginLogic.LoginHelper import Login
 
 app = Flask('MyLoginServer')
@@ -36,6 +38,7 @@ def login():
 
 if __name__ == '__main__':
     print(app.name)
-    app.run("0.0.0.0", "8088", True)
+    Tables.create_tables()
+    # app.run("0.0.0.0", "8088", True)
 
 
