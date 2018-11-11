@@ -12,9 +12,18 @@ def root():
     return render_template('index.html')
 
 
-@app.route('/register')
+@app.route('/register', methods=['POST', 'GET'])
 def register():
-    return 'success'
+    error = None
+    if request.method == 'POST':
+        username = request.form['username']
+        pwd = request.form['password']
+        if username and pwd :
+            if Login.register(username, pwd):
+                return 'Register Success'
+            else:
+                error = "Register ERROR"
+    return render_template('login.html', error=error)
 
 
 @app.route(r'/registerNew')
@@ -27,7 +36,6 @@ def login():
     error = None
     if request.method == 'POST':
         if Login.valid_login(request.form['username'], request.form['password']):
-            # return Login.log_the_user_in(request.form['username'])
             return render_template('login_success.html', result={'username': request.form['username']})
         else:
             error = 'Invalid username/password'
@@ -38,7 +46,6 @@ def login():
 
 if __name__ == '__main__':
     print(app.name)
-    Tables.create_tables()
-    # app.run("0.0.0.0", "8088", True)
+    app.run("0.0.0.0", "8088", True)
 
 

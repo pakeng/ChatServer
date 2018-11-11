@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592db4f1-9798-4249-bf59-fa54a8c8be3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyServers/LoginServer/DBHelper/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyServers/LoginServer/DBHelper/Config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyServers/LoginServer/DBHelper/DateBaseHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyServers/LoginServer/DBHelper/DateBaseHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyServers/LoginServer/DataBase/Tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyServers/LoginServer/DataBase/Tables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyServers/LoginServer/login_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyServers/LoginServer/login_server.py" afterDir="false" />
     </list>
@@ -17,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ChatServer$Tables.coverage" NAME="Tables Coverage Results" MODIFIED="1541755778368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyServers/LoginServer/DataBase" />
-    <SUITE FILE_PATH="coverage/ChatServer$login_server.coverage" NAME="login_server Coverage Results" MODIFIED="1541755598811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyServers/LoginServer" />
+    <SUITE FILE_PATH="coverage/ChatServer$login_server.coverage" NAME="login_server Coverage Results" MODIFIED="1541758228901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyServers/LoginServer" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-541744236">
@@ -52,7 +49,7 @@
     <session id="-386118205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="3" />
@@ -61,25 +58,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="5" />
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="116" />
-          <entry key="py" value="766" />
+          <entry key="py" value="1185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="116" />
-          <entry key="Python" value="766" />
+          <entry key="Python" value="1185" />
         </counts>
       </usages-collector>
     </session>
@@ -89,8 +86,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/login_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="846">
+              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/DBHelper/Config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            <state relative-caret-position="38">
+              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -148,14 +148,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="551">
+              <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
-                <marker date="1541755758347" expanded="true" signature="144:463" ph="..." />
+                <marker date="1541757210699" expanded="true" signature="144:423" ph="..." />
               </folding>
             </state>
           </provider>
@@ -188,10 +188,10 @@
         <option value="$PROJECT_DIR$/MyServers/LoginServer/templates/login.html" />
         <option value="$PROJECT_DIR$/MyServers/LoginServer/templates/login_success.html" />
         <option value="$PROJECT_DIR$/MyServers/LoginServer/DBHelper/DateBaseHelper.py" />
-        <option value="$PROJECT_DIR$/MyServers/LoginServer/login_server.py" />
-        <option value="$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py" />
         <option value="$PROJECT_DIR$/MyServers/LoginServer/DataBase/Tables.py" />
         <option value="$PROJECT_DIR$/MyServers/LoginServer/DBHelper/Config.py" />
+        <option value="$PROJECT_DIR$/MyServers/LoginServer/login_server.py" />
+        <option value="$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py" />
       </list>
     </option>
   </component>
@@ -275,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Tables">
+  <component name="RunManager" selected="Python.login_server">
     <configuration name="Tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ChatServer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,8 +349,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Tables" />
         <item itemvalue="Python.login_server" />
+        <item itemvalue="Python.Tables" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -377,7 +377,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,31 +429,70 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MyServers/LoginServer/login_server.py</url>
-          <line>27</line>
+          <line>36</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MyServers/LoginServer/login_server.py</url>
-          <line>28</line>
+          <line>37</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>session.query(User).filter_by(name=username).all()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.query(User).filter_by(name=username)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ret = session.query(User).filter_by(name=username)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/socketserver.py" />
@@ -498,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHubProjects/PyMongoDBDemo/venv/Lib/site-packages/sqlalchemy/orm/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="2890" column="8" selection-start-line="2890" selection-start-column="8" selection-end-line="2890" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/templates/login_success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -543,24 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/login_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-            <marker date="1541755758347" expanded="true" signature="144:463" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/DataBase/Tables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -573,10 +587,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/GitHubProjects/PyMongoDBDemo/venv/Lib/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="908" column="8" selection-start-line="908" selection-start-column="8" selection-end-line="908" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/DBHelper/Config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/login_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyServers/LoginServer/LoginLogic/LoginHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1541757210699" expanded="true" signature="144:423" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

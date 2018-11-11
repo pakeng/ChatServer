@@ -8,7 +8,6 @@ class Login(object):
     def valid_login(name, pwd):
         dbhelper = DBHelper()
         session = dbhelper.get_db_session()
-        session.query(User).filter_by()
         ret = session.query(User).filter_by(name=name).first()
         if ret.pwd == pwd:
             return True
@@ -19,3 +18,16 @@ class Login(object):
     def log_the_user_in(account):
 
         return True
+
+    @staticmethod
+    def register(username, pwd):
+        dbhelper = DBHelper()
+        session = dbhelper.get_db_session()
+        ret = session.query(User).filter_by(name=username).all()
+        if len(ret) > 0:
+            return False
+        else:
+            user = User(name=username, uid=username, pwd=pwd)
+            session.add(user)
+            session.commit()
+            return True
