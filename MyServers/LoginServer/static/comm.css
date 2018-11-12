@@ -1,0 +1,153 @@
+ ul {
+     list-style: none;
+     /* 去掉ul前面的符号 */
+     margin: 0px;
+     /* 与外界元素的距离为0 */
+     padding: 0px;
+     /* 与内部元素的距离为0 */
+     width: auto;
+     /* 宽度根据元素内容调整 */
+ }
+ 
+ .body {
+     background-color: #57daef;
+ }
+ /* 右侧区块 */
+ 
+ .right {
+     background-color: white;
+     border-color: #ccc;
+     border-style: solid;
+     border-width: 1px;
+     margin: 20px 20px 20px 40px;
+     border-radius: 10px;
+     padding: 30px 10px 30px 30px;
+     box-shadow: gray 5px 5px 10px 3px;
+ }
+ 
+ .right-content {
+     background-color: white;
+ }
+ /* box-shadow：color  h-shadow  v-shadow blur spread  inset； */
+ /* 左侧区块 */
+ 
+ .left {
+     background-color: white;
+     padding: 20px;
+     border-color: gray;
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 8px;
+     margin: 20px 20px 20px 80px;
+     box-shadow: gray 5px 5px 10px 3px;
+ }
+ 
+ .left-content {
+     background-color: white;
+ }
+ 
+ .left-content #nav-title {
+     font-size: 24px;
+     color: gray;
+ }
+ 
+ .left-content ul li {
+     margin: 10xp;
+ }
+ /* 基础容器 */
+ 
+ .m-container {
+     width: 100%;
+     height: 100%;
+     min-height: 760px;
+     padding: 20px;
+     border-color: gray;
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 8px;
+     box-shadow: gray 5px 5px 10px 3px;
+     margin: 40px;
+     background-color: white;
+ }
+ /* footer 容器 */
+ 
+ .footer-container {
+     background-color: aliceblue;
+     padding: 30px;
+     border-color: gray;
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 8px;
+     box-shadow: gray 5px 5px 10px 3px;
+     margin: 40px;
+ }
+ 
+ .footer-container ul li {
+     float: left;
+     /* 向左漂移，将竖排变为横排 */
+     margin-left: 20px;
+     margin-right: 10px;
+ }
+ /* 内容头部 */
+ 
+ .header {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ .header p {
+     text-shadow: 5px 5px 5px gray
+ }
+ /* 文章 */
+ 
+ .post-header {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .post-info-content {
+     float: right;
+ }
+ 
+ .post-header .post-info-time {
+     display: inline;
+     margin-right: 10px;
+ }
+ 
+ .post-header .post-info-author {
+     margin-right: 10px;
+     float: right;
+ }
+ 
+ .post-content {
+     clear: both;
+ }
+ /* center */
+ 
+ .center {
+     text-align: center;
+ }
+ /* 表格 */
+ 
+ .m-form {
+     width: 80%;
+     border: black;
+     border-width: 1px;
+ }
+ 
+ .m-form .input-label {
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ 
+ .m-form input {
+     margin: 10px 10px;
+ }
+ /* 一行错误信息显示 */
+ 
+ .error-label {
+     padding: 10px;
+     margin: 5px;
+     color: red;
+ }

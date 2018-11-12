@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="zh_cn">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-</head>
-<body>
-Login Page
-</body>
-</html>
+{% extends "base_template.html" %} {% block title %}
+<title>Login to MyChatApp </title>{% endblock %}{% block left %} {% include './widgets/left.html' %}{% endblock %} {% block right %}
+<h1 class="center post-header">Sign In Now!</h1>
+<hr>
+<div class="post-header m-form">
+    <form class="form-signin center" role="form" action="" method="POST">
+        <div class="username">
+            <p class="input-label">用户名：</p>
+            <input type="text" class="form-control" placeholder="username" name="username" required autofocus></div>
+        <div class="password">
+            <p class="input-label">密 码：</p><input type="password" name="password" placeholder="password" class="form-control" required></div>
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
+    </form>
+</div>
+{% endblock %}

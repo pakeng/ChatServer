@@ -2,10 +2,12 @@
 <html lang="zh_cn">
 <head>
     <meta charset="UTF-8">
+    <link style="../static/comm.css" />
     <title>Login Success</title>
 </head>
 <body>
 Login Success
 WellCome, {{result['username']}}!
+show cookies {{ request.cookies.get('username') }}
 </body>
 </html>

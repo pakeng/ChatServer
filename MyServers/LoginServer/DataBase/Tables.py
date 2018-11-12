@@ -16,8 +16,8 @@ class User(Base):
     __tablename__ = 'user'
     id = Column(Integer, primary_key=True)
     name = Column(String(32))
-    uid = Column(String(32))
-    pwd = Column(String(16))
+    uid = Column(String(64))
+    pwd = Column(String(64))
 
     __table_args__ = (
     UniqueConstraint('id', 'name', 'uid', name='uix_id_name_uid'),

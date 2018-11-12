@@ -1,0 +1,24 @@
+{% extends "base_template.html" %} {% block title %}
+<title>Register for MyChatApp Account</title>{% endblock %} {% block left %}{% include './widgets/left.html' %}{% endblock %} {% block right %}
+<h1 class="post-title center" id="post-title">Sign Up Now!</h1>
+<hr>
+<div class="post-header m-form">
+    <form class="form-signin center" role="form" action="" method="POST">
+        <div class="username">
+            <p class="input-label">用户名：</p>
+            <input type="text" class="form-control" placeholder="username" name="username" required autofocus></div>
+        <div class="password">
+            <p class="input-label">密 码：</p><input type="password" name="password" placeholder="password" class="form-control" required></div>
+        <div class="password">
+            <p class="input-label">重复密码：</p><input type="password" name="re-password" placeholder="repassword" class="form-control" required></div>
+        <label class="checkbox">
+            <input type="checkbox" value="remember-me"> 同意用户协议
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
+    </form>
+    {% if error %}
+    <p class="error-label">{{ error }}</p>
+    {% endif %}
+</div>
+
+{% endblock %}

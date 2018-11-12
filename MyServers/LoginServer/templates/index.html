@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-</head>
-<body>
-Hello World!3
-</body>
-</html>
+{% extends "base_template.html" %} {% block title %}
+<title>MyChatApp -- 一个简单的聊天软件 index </title>
+{% endblock %}
+
+<!-- 左侧内容 -->
+{% block left %} {% include "./widgets/left.html" %} {% endblock %}
+
+<!-- 右侧内容 -->
+{% block right %}
+<h1 class="post-title" id="post-title">Hello world!</h1>
+<div class="post-header">
+    <div class="post-info-content">
+        <p class="post-info-time">2018年11月11日14点17分</p>
+        <p class="post-info-author"><a target="_blank" href="http://pinode.cn">Vito</a></p>
+    </div>
+</div>
+
+<div class="post-content">
+    <hr/>
+    <p id="post-content">这是一个聊天软件的服务器web页面。</p>
+</div>
+
+{% endblock %}
